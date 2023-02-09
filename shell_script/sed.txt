@@ -1,0 +1,53 @@
+#!/bin/bash
+
+# echo "my name is ali "
+# read name
+
+# echo $name
+
+# read -p "Enter your name: " name
+# echo -e "Merhaba $name"
+
+
+# echo "file name is $0"
+# echo "first parameter is $1"
+# echo "second parameter is $2"
+# echo "third parameter is $3"
+# echo "all the parameters are $@"
+# echo "total number of parameters is $#"
+# echo "$RUNDOM is a rundom number"
+# echo "the current number line is $LINENO"
+
+# echo "$1"
+# echo "$2"
+# echo "$3"
+# echo "$#"
+# echo "$@"
+# # echo "$RANDOM"
+# # echo "$LINENO"
+# echo "$8"
+
+# MONTHS=(JAN FEB MAR APR)
+
+# echo ${£
+# MONTHS{[#LINENO]}
+
+DAYS=("mon" "tue" "wed" "thu" "fri" "sat" "sun")
+DAYS[0]="FRI"
+# echo "${!DAYS[@]}"
+# echo "${#DAYS[@]}"
+
+# echo "${DAYS[@]}"
+# echo "${DAYS[11]}"
+
+read -p "enter a name: " name 
+
+if [[ $name == ali ]]
+then 
+echo " $touch sed.txt"
+fi
+
+cat > sed.txt
+Linux is an OS. Linux is life. Linux is a concept.
+I like linux. You like linux. Everyone likes linux.
+Linux is free. Linux is good. Linux is hope.
